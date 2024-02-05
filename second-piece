@@ -1,8 +1,19 @@
+--UI Setup
+--GetUILib
 local Lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
 local window = Lib:Load("Takai's Library | Second Piece", "Default")
-
+--//--
+--Tabs Setup
+local home_tab = Lib.newTab("Home", "ImageIdHere")
 local teleport_tab = Lib.newTab("Teleport", "ImageIdHere")
+--//--
 
+--HomeTab Functions
+teleport_tab.newButton("Close GUI", "", function()
+    window:Close()
+end)
+--//--
+--TeleportTab Functions
 teleport_tab.newButton("TP To Starter Island", "Teleport to Starter Island's Spawn [LV.0+]", function()
     game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-894, 35, -567)
 end)
@@ -42,3 +53,8 @@ end)
 teleport_tab.newButton("TP To Autumnal Archipelago", "Teleport to Autumnal Archipelago (Yoru & CidSword, Artoria & Shadow Spawn)", function()
     game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1860, 74, 18)
 end)
+
+teleport_tab.newButton("TP To Autumnal Archipelago", "Teleport to Autumnal Archipelago (Yoru & CidSword, Artoria & Shadow Spawn)", function()
+    game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1860, 74, 18)
+end)
+--//--
