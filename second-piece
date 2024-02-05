@@ -40,5 +40,5 @@ teleport_tab.newButton("TP To Cursed Isle", "Teleport to Cursed Isle's Spawn (Sh
 end)
 
 teleport_tab.newButton("TP To Autumnal Archipelago", "Teleport to Autumnal Archipelago (Yoru & CidSword, Artoria & Shadow Spawn)", function()
-    game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(652, 74, -2384)
+    game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1860, 74, 18)
 end)
