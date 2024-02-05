@@ -42,4 +42,3 @@
     teleport_tab.newButton("TP To Autumnal Archipelago", "Teleport to Autumnal Archipelago (Yoru & CidSword, Artoria & Shadow Spawn)", function()
         game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(652, 74, -2384)
     end)
-end
