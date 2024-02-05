@@ -24,7 +24,7 @@ teleport_tab.newButton("TP To Frost Isle", "Teleport to Shell Town's Spawn [LV.1
 end)
 
 teleport_tab.newButton("TP To Sunset Isle", "Teleport to Forgotten Isle's Spawn (Artoria & Shadow Spawn, Bomb & Sand Man | LV.2000)", function()
-    game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(652, 74, -2384)
+    game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-701, 41, 778)
 end)
 
 teleport_tab.newButton("TP To Single Vine Island", "Teleport to Single Vine Island (Itadori & Chxmei's Merchant Location)", function()
